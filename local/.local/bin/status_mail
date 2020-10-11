@@ -1,0 +1,13 @@
+#!/bin/bash
+export DISPLAY=:0
+export $(dbus-launch)
+
+cmd=$(ping -c1 8.8.8.8)
+status=$(echo $?)
+
+if [[ $status -eq 0 ]];then
+        mail=$($HOME/.config/polybar/mail mohabaks64@gmail.com ntxlciniibeuelve)
+        if [[ $mail -gt 0 ]];then
+                /usr/bin/notify-send "Google Account" "$mail New Mail"
+        fi
+fi

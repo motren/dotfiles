@@ -1,0 +1,6 @@
+#! /usr/bin/bash
+# Description: get net CPU temp
+core0=$(sensors|grep "Core 0:"|awk '{print $3}'|cut -d"+" -f2|cut -d"." -f1)
+core1=$(sensors|grep "Core 1:"|awk '{print $3}'|cut -d"+" -f2|cut -d"." -f1)
+avg=$(( ($core0 + $core1)/2 ))
+echo "${avg}°C"

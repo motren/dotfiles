@@ -1,0 +1,7 @@
+#! /usr/bin/bash
+# Description: get net ESSID
+if essid=$(iwctl station wlan0 show|grep "Connected network"|awk '{print $3}');then
+        echo " $essid "
+else
+        echo " Disconnected "
+fi

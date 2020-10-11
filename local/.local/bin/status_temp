@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+# Description: get net CPU temp
+temp=$(sensors|grep -A2 "acpitz-acpi-0"|tail -n1|awk '{print $2}'|cut -d"+" -f2)
+echo " $temp "
