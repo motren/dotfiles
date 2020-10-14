@@ -1,10 +1,6 @@
-Dependencies
+Installation
 -----------
-Dependencies for `polybar` and `rofi`.
-
-```sh
-$ qubes-dom0-update pango-devel cairo-devel glib2-devel librsvg2-devel startup-notification-devel libxkbcommon-devel libxkbcommon-x11-devel libjpeg-devel libxcb-devel xcb-util-devel xcb-util-wm-devel xcb-util-xrm-devel libX11-devel libXcomposite-devel libXdamage-devel libXfixes-devel libXext-devel libXrender-devel libXrandr-devel libXinerama-devel xorg-x11-proto-devel pcre-devel libconfig-devel libdrm-devel libGL-devel dbus-devel
-```
+For `polybar` and `rofi` installation read [this](https://github.com/fepitre/qubes-rofi/issues/1#issuecomment-667303259).
 
 Screenshots
 -----------
