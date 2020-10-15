@@ -13,7 +13,6 @@
 Setup Preview
 -------------
 
-### Currently
 `polybar` `rofi` `xfce-notify` `qubes-manager`
 ![htb-clean](https://imgur.com/vaHKBtK.png)
 
@@ -24,13 +23,3 @@ Setup Preview
 ![htb](https://imgur.com/o8mCoGR.png)
 
 `colorscheme`: `htb`
-
-### Previously
-
-`polybar` `firefox` `dmenu` `dunst`
-![Clean](https://imgur.com/1jsY6Io.png)
-
-`alacritty` `vim` `tmux` `weechat` `discord`
-![Busy](https://imgur.com/Q7PRxjZ.png)
-
-`colorscheme`: `nightly`
