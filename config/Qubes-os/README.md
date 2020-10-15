@@ -1,5 +1,6 @@
 Installation
 -----------
+
 For `polybar` and `rofi` installation read [this](https://github.com/fepitre/qubes-rofi/issues/1#issuecomment-667303259).
 
 Screenshots
