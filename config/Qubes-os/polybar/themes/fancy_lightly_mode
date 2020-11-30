@@ -123,7 +123,7 @@ tray-background = ${colors.bg}
 
 modules-left = wsp bw bspwm cw
 modules-center = 
-modules-right =  s root s temp s memory s cpu s bat
+modules-right =  root temp memory cpu bat
 
 ;**********************************************************
 ;
