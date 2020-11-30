@@ -49,8 +49,8 @@ ignore-mode "display"
 
 articlelist-format "%4i %f %D  %?T?|%-17T| ?%t"
 
-highlight feedlist    "^  *[0-9]+  *N  "                    magenta  magenta
-highlight articlelist "^  *[0-9]+  *N  "                    magenta  magenta
+highlight feedlist    "^  *[0-9]+  *N  "                    magenta  default
+highlight articlelist "^  *[0-9]+  *N  "                    magenta  default
 
 highlight article     "(^Feed:.*|^Title:.*|^Author:.*)"     red      default
 highlight article     "(^Link:.*|^Date:.*)"                 white    default
@@ -71,4 +71,4 @@ color listfocus                                             magenta   default
 color info                                                  blue      black
 color article                                               default   default
 color listnormal_unread                                     white     default
-color listfocus_unread                                      color255  red   
+color listfocus_unread                                      color255  cyan
