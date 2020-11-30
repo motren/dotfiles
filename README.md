@@ -12,6 +12,7 @@
 
 Setup Preview
 -------------
+#### Dark Mode
 
 `polybar` `rofi` `xfce-notify` `qubes-manager`
 ![htb-clean](https://imgur.com/vaHKBtK.png)
@@ -23,3 +24,10 @@ Setup Preview
 ![htb](https://imgur.com/o8mCoGR.png)
 
 `colorscheme`: `htb`
+
+#### Light Mode
+
+`weechat` `tmux` `newsboat` `zathura` `ncmpcpp` `cava` `firefox` `polybar` `rofi`
+![lightly](https://i.ibb.co/PZJrwn0/s.png)
+
+`colorcheme`: `lightly`
