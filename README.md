@@ -28,6 +28,8 @@ Setup Preview
 `mpv` `polybar` `urxvt` `obsidian` `weechat`
 ![dex](https://i.redd.it/m4hg5n7dibb61.png)
 
+`colorscheme`: `dex`
+
 #### Light Mode
 
 `weechat` `tmux` `newsboat` `zathura` `ncmpcpp` `cava` `firefox` `polybar` `rofi`
