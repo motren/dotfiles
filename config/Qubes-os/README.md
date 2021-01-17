@@ -17,3 +17,5 @@ Screenshots
 `Laptop (Off)` `Dual Monitors (On)`
 
 ![quarantine](https://i.redd.it/63p44yk5xkn41.png)
+
+![dex](https://i.redd.it/m4hg5n7dibb61.png)
